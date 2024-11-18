@@ -1,0 +1,21 @@
+---
+title: "loop"
+author: "Lorenz Weidinger"
+date: "2024-11-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is the loop code as a R Markdown file. You can find also the rendered html in this directory.
+
+```{r loop}
+for (i in 1:10){
+  print(i)
+}
+```
+
